@@ -45,7 +45,7 @@ body {
   overflow: hidden;
 }
 
-/* CONTAINER */
+
 
 .container {
   /* max-width: your-size-here; */
@@ -55,10 +55,10 @@ body {
   padding-left: 20px;
 }
 
-/* STICKY-FOOTER */
 .site-main {
   flex-grow: 1;
 }
+
 
 .site-header {
   padding: 50px;
@@ -66,3 +66,21 @@ body {
   color: #fff;
   background-color: #ff0000;
 }
+=======
+/* features section :start */
+
+.features{
+  padding: 50px 0;
+  background-color: #10e422;
+}
+
+.features-title{
+  color: aqua;
+}
+
+/* footer begin */
+
+.site-footer{
+  background-color: #350ab7;
+}
+
