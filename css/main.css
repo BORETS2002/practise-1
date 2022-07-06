@@ -61,4 +61,19 @@ body{
   flex-grow: 1;
 }
 
+/* features section :start */
 
+.features{
+  padding: 50px 0;
+  background-color: #10e422;
+}
+
+.features-title{
+  color: aqua;
+}
+
+/* footer begin */
+
+.site-footer{
+  background-color: #350ab7;
+}
