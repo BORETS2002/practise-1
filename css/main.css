@@ -1,6 +1,6 @@
 /* VARIABLES */
 
-:root{
+:root {
   /* --main-text-color : #fff; */
   /* --main-bg-color : #fff; */
   /* --main-font-size : 16px; */
@@ -10,17 +10,17 @@
 
 /* GENERAL */
 
-html{
+html {
   height: 100%;
   box-sizing: border-box;
 }
 
-img{
+img {
   display: block;
   height: auto;
 }
 
-body{
+body {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -31,7 +31,6 @@ body{
   /* font-weight: 400; */
   /* line-height: var(--main-line-height); */
 }
-
 
 .visually-hidden {
   position: absolute;
@@ -46,9 +45,9 @@ body{
   overflow: hidden;
 }
 
-/* CONTAINER */
 
-.container{
+
+.container {
   /* max-width: your-size-here; */
   margin-right: auto;
   margin-left: auto;
@@ -56,11 +55,18 @@ body{
   padding-left: 20px;
 }
 
-/* STICKY-FOOTER */
-.site-main{
+.site-main {
   flex-grow: 1;
 }
 
+
+.site-header {
+  padding: 50px;
+  margin-bottom: 20px;
+  color: #fff;
+  background-color: #ff0000;
+}
+=======
 /* features section :start */
 
 .features{
@@ -77,3 +83,4 @@ body{
 .site-footer{
   background-color: #350ab7;
 }
+
